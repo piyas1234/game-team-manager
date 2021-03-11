@@ -10,8 +10,15 @@ import { faBaseballBall, faFlag, faUserFriends } from '@fortawesome/free-solid-s
 
 const TeamDetails = () => {
     const [team, setTeam] = useState([]);
+    const [ramdomColor, setramdomColor] = useState("")
     const id = useParams();
-    console.log(id)
+
+    setTimeout(() => {
+        const arr =  ["#0E0A2A","tomato","#ec11e8","#129a1f","white"]
+        const randomColorStyle = arr[Math.floor(Math.random() * arr.length)];
+        setramdomColor(randomColorStyle)
+    },3000);
+
     useEffect(() => {
         API.get(`lookupteam.php?id=${id.id}`)
             .then((res) => {
@@ -33,7 +40,7 @@ const TeamDetails = () => {
                     </div>
 
                     <div className="team-card">
-                        <div className="team-info row">
+                        <div style={{backgroundColor:ramdomColor}} className="team-info row">
                             <div className="gx-3 col-md-6 text-center m-auto">
                                 <h1>{strTeam}</h1>
 
