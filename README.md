@@ -3,8 +3,8 @@ Author : Piyas Talukder
 
 ===========================
 
-[Live Site](https://lucid-bohr-f7f209.netlify.app/)
-[Github Link](https://github.com/Porgramming-Hero-web-course/react-router-piyas1234)
+- [Live Site](https://lucid-bohr-f7f209.netlify.app/)
+- [Github Link](https://github.com/Porgramming-Hero-web-course/react-router-piyas1234)
  
 
 About project:
