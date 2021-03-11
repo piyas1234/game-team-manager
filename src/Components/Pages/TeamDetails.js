@@ -24,10 +24,12 @@ const TeamDetails = () => {
     return (
         <div className="team-container text-white" >
             {team.map(item => {
-                const { strTeamBadge, strTeam, strSport, strCountry, intFormedYear, strGender, strDescriptionEN, strYoutube, strFacebook, strTwitter } = item;
+                const { strTeamBadge, strTeam, strCountry, intFormedYear, strGender, strDescriptionEN, strYoutube, strFacebook, strTwitter } = item;
                 return <>
                     <div className="card-bg" >
+                        <center>
                         <img className="logo" src={strTeamBadge} alt="" srcset="" />
+                        </center>
                     </div>
 
                     <div className="team-card">
