@@ -3,8 +3,8 @@ Author : Piyas Talukder
 
 ===========================
 
-[![Live Site](https://github.com/humhub/humhub/workflows/PHP%20Codeception%20Tests/badge.svg)](https://lucid-bohr-f7f209.netlify.app/)
-[![Github Link](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://github.com/Porgramming-Hero-web-course/react-router-piyas1234)
+[Live Site](https://lucid-bohr-f7f209.netlify.app/)
+[Github Link](https://github.com/Porgramming-Hero-web-course/react-router-piyas1234)
  
 
 About project:
@@ -16,7 +16,7 @@ About project:
 
 
 More information:
-- [my website: ](http://piyass.com)
+- [my website ](http://piyass.com)
 - [facebook](https://web.facebook.com/piyastalukderr/)
 
 
