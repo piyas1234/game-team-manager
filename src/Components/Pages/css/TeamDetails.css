@@ -3,21 +3,26 @@
     min-height:700px;
     
 }
-
-.card-bg{
+.imgBody{
+    min-height:400px;
+}
+.imgBodybg{
     
     background-image: url('../../Image/banner3.jpg') , linear-gradient(rgb(77, 74, 74),rgb(105, 44, 44),rgb(93, 6, 255));
     background-repeat: no-repeat;
     background-size: cover; 
     margin: auto; 
-   
+    color: rgba(143, 6, 255, 0.062)
    
 }
-
  
-
+ 
+.logoBody{
+    max-width: 300px;
+    margin:auto;
+}
 .logo{
-    width:17%;
+    width:100%;
     padding:30px;
     margin:auto;
     margin-bottom: 50px;

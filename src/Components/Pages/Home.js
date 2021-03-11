@@ -12,11 +12,11 @@ const Home = () => {
         items > 0 && setItems(items - 12)
     }
     setTimeout(() => {
-        const arr =  ["#0E0A2A","tomato","#ec11e8","#129a1f","white"]
+        const arr = ["#0E0A2A", "tomato", "#ec11e8", "#129a1f", "white"]
         const randomColorStyle = arr[Math.floor(Math.random() * arr.length)];
         setramdomColor(randomColorStyle)
-    },3000);
-     
+    }, 3000);
+
     const onClickHandalernext = () => {
         setItems(items + 12)
     }
@@ -30,22 +30,18 @@ const Home = () => {
     const players = data.slice(items, items + 12)
 
     return (
-        <div className=" text-center">
-            <h1 className="title-possition"
-                style={{
-                    position: "relative",
-                    margin: "auto",
-                    marginBottom:"-100px",
-                    color: `${ramdomColor}`,
-                    fontWeight: "bold"
-                }}>Team manager</h1>
-            <img className="card-img" width="100%" src={Banner} alt="" srcset="" />
+        <div className="">
+            <div className="banner">
+                <div className="banner-title">
+                    <h1 style={{ color: ramdomColor }}>Team manager</h1>
+                </div>
+            </div>
             <Search></Search>
             <div
                 style={{
-                    backgroundColor:`${ramdomColor}`,
-                    marginTop:'100px',
-                    padding:'10px'
+                    backgroundColor: `${ramdomColor}`,
+                    marginTop: '40px',
+                    padding: '10px'
                 }}>
                 <div className="row w-75 m-auto">
                     {players && players.map(item => <Team item={item}></Team>)}

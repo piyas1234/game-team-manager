@@ -7,7 +7,7 @@ const Team = (props) => {
     return (
         <>
             <div style={{ fontFamily: "Arial" }} className="gx-1 col-md-6 col-lg-4 text-center">
-                <div style={{boxShadow:"3px 3px 3px 3px gray"}} className="card p-3 mt-4">
+                <div style={{ boxShadow: "3px 3px 3px 3px gray" }} className="card p-3 mt-4">
                     <div className="text-center">
                         <img className="card-img w-50 m-1" src={strTeamBadge} alt="" srcset="" />
                     </div>

@@ -15,11 +15,12 @@ const Navigation = () => {
 
         <div>
             <Navbar className="p-3 pb-3 " expand="lg">
-                <Navbar.Brand><h3><Link className="bg-primary  p-1"
+                <Navbar.Brand><h3><Link className=" p-1"
                     style={{
                         boxShadow: "3px 3px 3px 3px  gray",
                         textDecoration: 'none',
-                        color: ramdomColor,
+                        backgroundColor:ramdomColor,
+                        color: 'white',
                         borderRadius: "60px",
                         border: "3px solid gold"
                     }} to="/"> <FontAwesomeIcon style={{color:ramdomColor}} icon={faBaseballBall} />Team manager</Link></h3></Navbar.Brand>

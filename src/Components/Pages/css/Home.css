@@ -1,0 +1,18 @@
+.banner-container{
+    min-width: 300px;
+}
+
+.banner{
+    background-image: url('../../Image/banner3.jpg');
+    background-size: cover;
+    min-height: 300px;
+    display: block;
+}
+
+.banner-title{
+
+    width:300px;
+    margin: auto;
+    padding-top:100px;
+    justify-content: center;
+}
