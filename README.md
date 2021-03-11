@@ -1,11 +1,11 @@
-project Name : team tracker 
+project Name : team manager 
 Author : Piyas Talukder
 
 ===========================
 
-[![Test Status](https://github.com/humhub/humhub/workflows/PHP%20Codeception%20Tests/badge.svg)](https://github.com/humhub/humhub/actions)
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-[![CLA assistant](https://cla-assistant.io/readme/badge/humhub/humhub)](https://cla-assistant.io/humhub/humhub)
+[![Live Site](https://github.com/humhub/humhub/workflows/PHP%20Codeception%20Tests/badge.svg)](https://lucid-bohr-f7f209.netlify.app/)
+[![Github Link](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://github.com/Porgramming-Hero-web-course/react-router-piyas1234)
+ 
 
 About project:
 
@@ -16,8 +16,7 @@ About project:
 
 
 More information:
-- [Homepage & Demo](http://www.humhub.org)
-- [Documentation & Class Reference](http://docs.humhub.org)
-- [Community](http://community.humhub.com/)
-- [Licence](https://www.humhub.com/licences)
+- [my website: ](http://piyass.com)
+- [facebook](https://web.facebook.com/piyastalukderr/)
+
 
