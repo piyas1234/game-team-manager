@@ -1,0 +1,35 @@
+.team-container{
+    background-color:rgb(20, 20, 165);
+    min-height:700px;
+    
+}
+
+.card-bg{
+    
+    background-image: url('../../Image/home.png');
+    background-repeat: no-repeat;
+   background-size: cover;  
+   
+}
+
+.logo{
+    width:17%;
+    padding:30px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.team-card{
+    width:75%;
+    margin:auto;
+     
+}
+.team-info{
+    background-color:rgba(238, 238, 238, 0.486);
+    background-color:blueviolet;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+ 
+ 
